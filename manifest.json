@@ -1,0 +1,16 @@
+{
+    "description": "Bionic reading",
+    "manifest_version": 2,
+    "name": "bionic-reading",
+    "version": "1.0",
+    "homepage_url": "https://github.com/vsecoder/bionic-reading",
+
+    "icons": {
+        "64": "icons/icon.png"
+    },
+  
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": ["index.js"]
+    }]
+}
